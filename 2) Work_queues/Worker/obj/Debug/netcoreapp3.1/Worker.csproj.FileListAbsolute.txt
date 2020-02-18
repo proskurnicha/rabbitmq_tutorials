@@ -1,0 +1,13 @@
+D:\Nataliia\NET\Work_queues\worker\obj\Debug\netcoreapp3.1\Worker.AssemblyInfoInputs.cache
+D:\Nataliia\NET\Work_queues\worker\obj\Debug\netcoreapp3.1\Worker.AssemblyInfo.cs
+D:\Nataliia\NET\Work_queues\Worker\bin\Debug\netcoreapp3.1\Worker.exe
+D:\Nataliia\NET\Work_queues\Worker\bin\Debug\netcoreapp3.1\Worker.deps.json
+D:\Nataliia\NET\Work_queues\Worker\bin\Debug\netcoreapp3.1\Worker.runtimeconfig.json
+D:\Nataliia\NET\Work_queues\Worker\bin\Debug\netcoreapp3.1\Worker.runtimeconfig.dev.json
+D:\Nataliia\NET\Work_queues\Worker\bin\Debug\netcoreapp3.1\Worker.dll
+D:\Nataliia\NET\Work_queues\Worker\bin\Debug\netcoreapp3.1\Worker.pdb
+D:\Nataliia\NET\Work_queues\Worker\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\Nataliia\NET\Work_queues\Worker\obj\Debug\netcoreapp3.1\Worker.csproj.CopyComplete
+D:\Nataliia\NET\Work_queues\Worker\obj\Debug\netcoreapp3.1\Worker.dll
+D:\Nataliia\NET\Work_queues\Worker\obj\Debug\netcoreapp3.1\Worker.pdb
+D:\Nataliia\NET\Work_queues\Worker\obj\Debug\netcoreapp3.1\Worker.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+D:\Nataliia\NET\Send\bin\Debug\netcoreapp3.1\Send.exe
+D:\Nataliia\NET\Send\obj\Debug\netcoreapp3.1\Send.csprojAssemblyReference.cache
+D:\Nataliia\NET\Send\obj\Debug\netcoreapp3.1\Send.AssemblyInfoInputs.cache
+D:\Nataliia\NET\Send\obj\Debug\netcoreapp3.1\Send.AssemblyInfo.cs
+D:\Nataliia\NET\Send\bin\Debug\netcoreapp3.1\Send.deps.json
+D:\Nataliia\NET\Send\bin\Debug\netcoreapp3.1\Send.runtimeconfig.json
+D:\Nataliia\NET\Send\bin\Debug\netcoreapp3.1\Send.runtimeconfig.dev.json
+D:\Nataliia\NET\Send\bin\Debug\netcoreapp3.1\Send.dll
+D:\Nataliia\NET\Send\bin\Debug\netcoreapp3.1\Send.pdb
+D:\Nataliia\NET\Send\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\Nataliia\NET\Send\obj\Debug\netcoreapp3.1\Send.csproj.CopyComplete
+D:\Nataliia\NET\Send\obj\Debug\netcoreapp3.1\Send.dll
+D:\Nataliia\NET\Send\obj\Debug\netcoreapp3.1\Send.pdb
