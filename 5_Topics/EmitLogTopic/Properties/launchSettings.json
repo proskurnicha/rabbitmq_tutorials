@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EmitLog": {
+      "commandName": "Project",
+      "commandLineArgs": "info error"
+    }
+  }
+}
