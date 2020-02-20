@@ -14,14 +14,12 @@ namespace Receive
             {
                 using (var channel = connection.CreateModel())
                 {
-                    channel.ExchangeDeclare(exchange: "direct_logs",
-                                            type: ExchangeType.Direct);
-
+                    channel.ExchangeDeclare(exchange: "topic_logs", type: "topic");
                     var queueName = channel.QueueDeclare().QueueName;
 
                     if (args.Length < 1)
                     {
-                        Console.Error.WriteLine("Usage: {0} [info] [warning] [error]",
+                        Console.Error.WriteLine("Usage: {0} [binding_key...]",
                                                 Environment.GetCommandLineArgs()[0]);
                         Console.WriteLine(" Press [enter] to exit.");
                         Console.ReadLine();
@@ -29,14 +27,14 @@ namespace Receive
                         return;
                     }
 
-                    foreach (var severity in args)
+                    foreach (var bindingKey in args)
                     {
                         channel.QueueBind(queue: queueName,
-                                         exchange: "direct_logs",
-                                         routingKey: severity);
-                    };
+                                          exchange: "topic_logs",
+                                          routingKey: bindingKey);
+                    }
 
-                    Console.WriteLine(" [*] Waiting for logs.");
+                    Console.WriteLine(" [*] Waiting for messages. To exit press CTRL+C");
 
                     var consumer = new EventingBasicConsumer(channel);
                     consumer.Received += (model, ea) =>
@@ -45,9 +43,9 @@ namespace Receive
                         var message = Encoding.UTF8.GetString(body);
                         var routingKey = ea.RoutingKey;
                         Console.WriteLine(" [x] Received '{0}':'{1}'",
-                                          routingKey, message);
+                                          routingKey,
+                                          message);
                     };
-
                     channel.BasicConsume(queue: queueName,
                                          autoAck: true,
                                          consumer: consumer);
